@@ -1,0 +1,89 @@
+html {
+	scroll-behavior: smooth;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-family: "Noto Sans";
+}
+
+.red-text {
+	color: #ff5a6e;
+}
+
+.red-btn {
+	background: #ff5a6e !important;
+}
+
+.red-btn:hover {
+	background: #e55d87 !important;
+	cursor: pointer;
+}
+
+.navbar {
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+}
+
+.dropdown-menu {
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+}
+
+.dropdown-toggle::after {
+	color: white;
+}
+
+.job-img-container {
+	height: 30%;
+}
+
+.job-img {
+	height: auto;
+	max-width: 100%;
+}
+
+.card-body {
+	overflow: hidden;
+}
+
+.img-slide {
+	height: 40vh;
+	margin: 0 auto;
+}
+
+#job-section {
+	margin-top: 100px;
+}
+
+.block {
+	width: 70px;
+	height: 2px;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	margin-bottom: 50px;
+}
+  
+#footer {
+	min-height: 120px;
+	padding: 40px 0 40px 0;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	box-sizing: border-box;
+	color: white;
+}

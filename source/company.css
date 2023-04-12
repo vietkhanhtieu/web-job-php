@@ -1,0 +1,90 @@
+html {
+	scroll-behavior: smooth;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-family: "Noto Sans";
+    /* margin-top: 2rem; */
+}
+
+.red-text {
+	color: #ff5a6e;
+}
+
+.block {
+	width: 70px;
+	height: 2px;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	margin-bottom: 30px;
+}
+
+/* Nav */
+.nav-link {
+    background: #ff5a6e !important;
+    color: white;
+}
+
+.nav-link:hover {
+    background: #e55d87 !important;
+   	color: white;
+}
+
+#company-content {
+	height: 100vh !important;
+}
+
+/* Content */
+#user-content {
+    padding-left: 2rem;
+}
+
+
+.btn-see-more, .btn-remove-fav {
+	background: #ff5a6e;
+}
+
+.btn-see-more a, .btn-remove-fav a {
+	color: white;
+}
+
+.btn-see-more:hover, .btn-remove-fav:hover {
+	background: #e55d87;
+	cursor: pointer;
+}
+
+#btn-upload-job {
+	background: #ff5a6e;
+}
+
+.red-btn {
+	background: #ff5a6e !important;
+}
+
+.red-btn:hover {
+	background: #e55d87 !important;
+	cursor: pointer;
+}
+
+.job-img-container {
+	min-height: 30%;
+}
+
+.job-img {
+	height: auto;
+	max-width: 100%;
+}
+
+.card-body {
+	overflow: hidden !important;
+}

@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.red-btn {
+	background: #ff5a6e !important;
+    color: white;
+}
+
+.red-btn:hover {
+	background: #e55d87 !important;
+	cursor: pointer;
+}
+
+/* nav */
+.job-nav-bar {
+    background: #ff5a6e;
+}
+
+.nav-link:hover {
+    border: 0;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+/* Job */
+.job-img-container {
+    height: 30vh;
+}
+
+.job-img {
+    height: 100%;
+}

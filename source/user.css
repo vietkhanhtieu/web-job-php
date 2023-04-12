@@ -1,0 +1,57 @@
+html {
+	scroll-behavior: smooth;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-family: "Noto Sans";
+}
+
+.red-text {
+	color: #ff5a6e;
+}
+
+.block {
+	width: 70px;
+	height: 2px;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	margin-bottom: 30px;
+}
+
+/* Nav */
+.nav-link {
+    background: #ff5a6e !important;
+    color: white;
+}
+
+.nav-link:hover {
+    background: #e55d87 !important;
+    color: white;
+}
+
+.red-btn {
+	background: #ff5a6e !important;
+}
+
+.red-btn:hover {
+	background: #e55d87 !important;
+	cursor: pointer;
+}
+
+.job-img-container {
+	max-height: 30%;
+}
+
+.card-body {
+	overflow: hidden;
+}
